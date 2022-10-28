@@ -1,0 +1,31 @@
+#htmlCode {
+
+  border: 1px solid black;
+  max-width: 800px;
+  overflow: visible;
+  background-color: #fefae0;
+  box-shadow: 1px 1px 10px 2px #d4a373;
+
+  #preview {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    table {
+      border: 1px solid black;
+      text-align: left;
+      width: 80%;
+
+      th {
+        border: 1px solid black;
+      }
+
+      td {
+        border: 1px solid black;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}

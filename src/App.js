@@ -1,11 +1,20 @@
 import './App.scss';
+import React, { useState } from 'react';
+import { Textarea } from './components/textarea';
+import { Previewer } from './components/previewer';
 
-function App() {
+
+const App = () => {
+
+  const [input, setInput] = useState('');
+
   return (
-    <div>
-      <h1>Hallo React</h1>
+    <div id='app'>
+      <Textarea input={input} setInput={setInput} />
+      <Previewer input={input} />
     </div>
   );
 }
+
 
 export default App;
