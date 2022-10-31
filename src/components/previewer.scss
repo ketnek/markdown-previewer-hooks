@@ -1,14 +1,21 @@
 #htmlCode {
-
-  border: 1px solid black;
-  max-width: 800px;
-  overflow: visible;
+  border-radius: 5px 5px 5px 5px;
   background-color: #fefae0;
   box-shadow: 1px 1px 10px 2px #d4a373;
+  width: 70%;
+  min-height: 300px;
+  overflow: hidden;
 
   #preview {
     padding-left: 3rem;
     padding-right: 3rem;
+
+
+    // Markdown style
+
+    pre {
+      background-color: white;
+    }
 
     table {
       border: 1px solid black;
@@ -28,4 +35,6 @@
   img {
     width: 100%;
   }
+
+  // End markdown style
 }
