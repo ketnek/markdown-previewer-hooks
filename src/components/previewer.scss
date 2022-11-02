@@ -2,9 +2,29 @@
   border-radius: 5px 5px 5px 5px;
   background-color: #fefae0;
   box-shadow: 1px 1px 10px 2px #d4a373;
-  width: 70%;
+  width: 800px;
   min-height: 300px;
   overflow: hidden;
+
+  #headerBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d4a373;
+
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 3px 1rem;
+    }
+
+
+
+    #icon {
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
 
   #preview {
     padding-left: 3rem;

@@ -1,9 +1,7 @@
 import './App.scss';
 import React, { useState } from 'react';
-import { Textarea } from './components/textarea';
-import { Previewer } from './components/previewer';
 import { prevText } from './previewText';
-import { Zoom } from './components/zoom';
+import { ZoomController } from './components/zoomController';
 
 
 const App = () => {
@@ -12,12 +10,10 @@ const App = () => {
 
   return (
     <div id='app'>
-      <Zoom>
-        <Textarea input={input} setInput={setInput} />
-      </Zoom>
-      <Zoom>
-        <Previewer input={input} />
-      </Zoom>
+      <ZoomController
+        input={input}
+        setInput={setInput}
+      />
     </div>
   );
 }

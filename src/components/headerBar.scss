@@ -1,4 +1,4 @@
-#headerBar {
+.headerBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,7 +10,9 @@
     margin: 3px 1rem;
   }
 
-  #icon {
+
+
+  .icon {
     margin-right: 1rem;
     cursor: pointer;
   }
