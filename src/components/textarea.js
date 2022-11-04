@@ -4,6 +4,7 @@ import { HeaderBar } from './headerBar';
 
 
 export const Textarea = ({ input, setInput, zoom, setZoom }) => {
+
   const zoomClass =
     !zoom
       ? 'noZoom'
@@ -15,6 +16,7 @@ export const Textarea = ({ input, setInput, zoom, setZoom }) => {
         headline={'Editor'}
         zoom={zoom}
         setZoom={setZoom} />
+
       <textarea
         typeof='text'
         onChange={(event) => setInput(input = event.target.value)}
@@ -23,6 +25,5 @@ export const Textarea = ({ input, setInput, zoom, setZoom }) => {
       </textarea>
     </div>
   );
-
 }
 

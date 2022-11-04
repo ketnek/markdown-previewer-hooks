@@ -12,6 +12,7 @@ export const Previewer = ({ input, zoom, setZoom }) => {
         headline={'Prewiever'}
         zoom={zoom}
         setZoom={setZoom} />
+
       <div id='preview'>
         <Markdown value={input} gfm='true' breaks='true' />
       </div>

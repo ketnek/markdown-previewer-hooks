@@ -2,6 +2,7 @@ import React from "react";
 import './headerBar.scss'
 import { FaArrowsAlt, FaCompressAlt } from 'react-icons/fa';
 
+
 export const HeaderBar = ({ headline, zoom, setZoom }) => {
 
   return (

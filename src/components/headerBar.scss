@@ -4,16 +4,17 @@
   justify-content: space-between;
   background-color: #d4a373;
 
-
   h2 {
     font-size: 1.5rem;
     margin: 3px 1rem;
   }
 
-
-
   .icon {
     margin-right: 1rem;
     cursor: pointer;
+  }
+
+  .icon:hover {
+    color: #faedcd;
   }
 }

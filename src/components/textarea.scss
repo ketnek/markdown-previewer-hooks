@@ -2,31 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 600px;
+  width: 80%;
+  max-width: 600px;
   box-shadow: 1px 1px 10px 2px #dda15e;
   border-radius: 5px 5px 5px 5px;
   overflow: hidden;
   margin-bottom: 2rem;
-
-  #headerBar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #d4a373;
-
-
-    h2 {
-      font-size: 1.5rem;
-      margin: 3px 1rem;
-    }
-
-
-
-    .icon {
-      margin-right: 1rem;
-      cursor: pointer;
-    }
-  }
 
   #editor {
     background-color: #fefae0;
